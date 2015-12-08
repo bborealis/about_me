@@ -2,12 +2,38 @@
 	margin-top : 30px;
 	margin-bottom : 70px;
 }
+#maincontent {
+	width : 100%;
+}
+#about {
+	float : left;
+	width : 48%;
+	margin-left : auto;
+	margin-right : auto;
+}
+
+#portfolio {
+	float : right;
+	width : 48%;
+	padding : 10px;
+	margin-left : auto;
+	margin-right : auto;
+	margin-bottom : 85px;
+}
 
 #nav ul ul li{
 	float : right;
 	padding : 20px;
 	text-transform : uppercase;
 	font-family: "Montserrat";
+}
+
+.social {
+	float : left;
+	width : 100%;
+	margin-bottom : 20px;
+
+
 }
 
 a {
@@ -50,20 +76,6 @@ h2 {
 	font-size : 13px;
 }
 
-#about {
-	float : left;
-	width : 48%;
-	margin-left : auto;
-	margin-right : auto;
-}
-
-#portfolio {
-	float : right;
-	width : 48%;
-	padding : 10px;
-	margin-left : auto;
-	margin-right : auto;
-}
 
 #portfolio img {
 	width : 10vw;
@@ -75,15 +87,11 @@ h2 {
 	display : inline;
 }
 
-#portfolio ul{
+#portfolio ul, .social ul{
 	padding: 0px;
 	margin : 0;
 }
 
-#maincontent {
-	width : 100%;
-
-}
 
 @media only screen and (max-width : 750px) {
 	#portfolio, #about {
@@ -98,4 +106,18 @@ h2 {
 		margin-left: auto;
 		margin-right : auto;
 	}
+}
+
+@media only screen and (max-width : 555px) {
+	#nav ul ul li{
+		padding : 3px;
+		float : left;
+		display : block;
+	}
+}
+
+.social li {
+	width : 70px;
+	text-decoration : none;
+	float : left;
 }
