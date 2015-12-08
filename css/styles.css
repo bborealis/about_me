@@ -15,14 +15,9 @@ a {
 	text-decoration :none;
 }
 
-/*#nav ul {
-	list-style-type: none;
-}*/
-
 #nav li {
 	float: left;
 }
-
 
 .clear:after {
 	content: "";
@@ -36,4 +31,13 @@ body {
 
 li {
 	font-family: "Montserrat";
+}
+
+#main-img img {
+	width: 100%;
+	max-width : 1500px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block
+
 }
