@@ -1,7 +1,6 @@
 #nav {
 	margin-top : 30px;
 	margin-bottom : 70px;
-	border : 3px
 }
 
 #nav ul ul li{
@@ -29,15 +28,74 @@ body {
 	background-color: #faf9f4;
 }
 
-li {
+li, p{
 	font-family: "Montserrat";
 }
 
 #main-img img {
 	width: 100%;
 	max-width : 1500px;
-	margin-left: auto;
-	margin-right: auto;
-	display: block
+	margin-left : auto;
+	margin-right : auto;
+	display : block;
+	margin-bottom : 50px;
+}
 
+h2 {
+	text-transform : uppercase;
+	font-family : "Montserrat";
+}
+
+#about p {
+	font-size : 13px;
+}
+
+#about {
+	float : left;
+	width : 48%;
+	margin-left : auto;
+	margin-right : auto;
+}
+
+#portfolio {
+	float : right;
+	width : 48%;
+	padding : 10px;
+	margin-left : auto;
+	margin-right : auto;
+}
+
+#portfolio img {
+	width : 10vw;
+	padding : 5px;
+}
+
+
+#portfolio li {
+	display : inline;
+}
+
+#portfolio ul{
+	padding: 0px;
+	margin : 0;
+}
+
+#maincontent {
+	width : 100%;
+
+}
+
+@media only screen and (max-width : 750px) {
+	#portfolio, #about {
+		float : none;
+		width : 100%;
+	}
+}
+
+@media only screen and (max-width : 750px) {
+	#portfolio img{
+		width : 45%;
+		margin-left: auto;
+		margin-right : auto;
+	}
 }
