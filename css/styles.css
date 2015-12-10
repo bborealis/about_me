@@ -169,7 +169,7 @@ hr {
 	#nav ul ul {
 		padding-left : 0;
 	}
-	
+
 	#nav {
 		margin-bottom : 0;
 	}
@@ -184,5 +184,11 @@ hr {
 @media screen and (max-width : 400px) {
 	.social li {
 		width : 50px;
+	}
+}
+
+@media screen and (max-width : 765px) {
+	.social li {
+		width : 60px;
 	}
 }
