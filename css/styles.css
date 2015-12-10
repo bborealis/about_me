@@ -27,6 +27,10 @@
 	font-family: "Montserrat";
 }
 
+#nav ul li {
+	padding-bottom : 20px;
+}
+
 .social {
 	float : left;
 	width : 100%;
@@ -160,6 +164,20 @@ hr {
 		float : none;
 		display : block;
 		width: 200;
+	}
+
+	#nav ul ul {
+		padding-left : 0;
+	}
+	
+	#nav {
+		margin-bottom : 0;
+	}
+	#main-img img {
+		min-width: 400px;
+		margin-left: -30px;
+		overflow: auto;
+		float : none;
 	}
 }
 
